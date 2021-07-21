@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+}
+a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header,h1{
+    height:80px;
+    padding-left: 20px;
+}
+
+header,h1,a{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+
+}
+.link{
+    list-style: none;
+    padding-right: 100px;
+}
+.link li{
+    display: inline-block;
+    padding: 16px 20px;
+}
+.link li a{
+    transition: all .3s;
+
+}
+.link li a:hover{
+    color: red;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+
+
